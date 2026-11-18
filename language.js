@@ -1,0 +1,1 @@
+(()=>{const form=document.querySelector('.language-picker');if(!form)return;form.addEventListener('submit',e=>{if(form.elements.tl.value==='en'){e.preventDefault();location.assign(form.elements.u.value);}});})();
